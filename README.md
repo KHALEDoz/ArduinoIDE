@@ -1,14 +1,22 @@
 # LED Connection with Arduino Uno and Resistor on Breadboard
 # LED_Blink.ino
+
 void setup() {
+
   pinMode(13, OUTPUT);
+  
   }
 
 void loop() {
+
   digitalWrite(13, HIGH);
+  
   delay(1000);
+  
   digitalWrite(13, LOW);  
-  delay(1000);           
+  
+  delay(1000);      
+  
 }
 
 #  LED Blink using Arduino
